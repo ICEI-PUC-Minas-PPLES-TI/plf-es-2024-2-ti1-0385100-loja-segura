@@ -1,21 +1,21 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16017966&assignment_repo_type=AssignmentRepo)
-# Nome do projeto
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+# Loja Segura
+
+A Loja Segura é um site seguro e confiável que gerencia informações oficiais de lojas online, permitindo que consumidores comprem online com segurança e que empresas vendam mais e melhor evitando golpes de falsificação.
 
 ## Alunos integrantes da equipe
 
+* Leandro Sena de Andrade Machado
 * João Victor Martins Pascoalon
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Fernanda de Matos Ferreira Café
+* Felipe Corrêa Faria Cury
+* Agni Sofia Gomes Chaves
 
 ## Professores responsáveis
 
 * Rommel Vieira Carneiro 
-* Nome completo do professor 2
-
-
+* Cleiton Silva Tavares
 
 ## Instruções de utilização 
 
