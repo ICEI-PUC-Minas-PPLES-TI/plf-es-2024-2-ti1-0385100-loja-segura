@@ -3,7 +3,7 @@
 ![](https://github.com/ICEI-PUC-Minas-PPLES-TI/Loja-Segura/blob/master/Loja%20Segura.jpeg)
 # Loja Segura
 
-A Loja Segura é um site seguro e confiável que gerencia informações oficiais de lojas online, permitindo que consumidores comprem online com segurança e que empresas vendam mais e melhor evitando golpes de falsificação....
+A Loja Segura é um site seguro e confiável que gerencia informações oficiais de lojas online, permitindo que consumidores comprem online com segurança e que empresas vendam mais e melhor evitando golpes de falsificação.
 
 ## Alunos integrantes da equipe
 
