@@ -3,12 +3,13 @@
 Informações básicas do projeto.
 
 * **Projeto:** Loja Segura
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Repositório GitHub:** https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-loja-segura
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * Leandro Sena de Andrade Machado
+  * Felipe Corrêia Faria Cury
+  * Agni Sofia Gomes Chaves
+  * João Vitor Martins Pascoalon 
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -24,7 +25,10 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+As compras online se tornaram uma parte essencial de nossas vidas, oferecendo
+comodidade e acesso a uma ampla variedade de produtos. No entanto, junto
+com essa conveniência, também surgiram riscos significativos. Um desses riscos é o crescente número de golpes envolvendo lojas online falsas que
+vendem produtos ilegítimos como se fossem originais. Muitos golpistas criam sites que imitam lojas online legítimas. Eles usam logotipos, designs e até mesmo URLs semelhantes para enganar os consumidores. Essas lojas falsas oferecem produtos a preços atrativos, alegando serem originais e de alta qualidade. No entanto, na realidade, os produtos podem ser falsificados, de baixa qualidade ou até mesmo inexistentes
 
 ## Problema
 
