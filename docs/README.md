@@ -25,65 +25,27 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-As compras online se tornaram uma parte essencial de nossas vidas, oferecendo
-comodidade e acesso a uma ampla variedade de produtos. No entanto, junto
-com essa conveniência, também surgiram riscos significativos. Um desses riscos é o crescente número de golpes envolvendo lojas online falsas que
-vendem produtos ilegítimos como se fossem originais. Muitos golpistas criam sites que imitam lojas online legítimas. Eles usam logotipos, designs e até mesmo URLs semelhantes para enganar os consumidores. Essas lojas falsas oferecem produtos a preços atrativos, alegando serem originais e de alta qualidade. No entanto, na realidade, os produtos podem ser falsificados, de baixa qualidade ou até mesmo inexistentes
+As compras online tornaram-se uma parte essencial da vida cotidiana, proporcionando comodidade e acesso a uma grande variedade de produtos. Essa forma de consumo cresceu exponencialmente, oferecendo inúmeras opções e vantagens aos consumidores, como facilidade de comparação de preços e entrega rápida por todo o mundo. Empresas e plataformas digitais evoluíram para atender a essa demanda crescente, adotando tecnologias modernas como sistemas de pagamento online seguros, interfaces de usuário intuitivas e logística aprimorada para entregas rápidas. No entanto, o mesmo avanço no ambiente digital também abriu espaço para a atuação de golpistas, que se aproveitam dessa popularidade e do alto volume de transações.
+
+Empresas do setor de comércio eletrônico e consumidores estão cada vez mais preocupados com a segurança das transações online, uma vez que a proliferação de sites falsos e golpes têm gerado perda de confiança e prejuízos financeiros para os usuários. Esse cenário impõe a necessidade de soluções mais eficazes que ajudem a identificar e mitigar esses riscos.
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+O problema central é o aumento de fraudes no comércio eletrônico, onde lojas online falsas são criadas para enganar os consumidores, vendendo produtos falsificados ou inexistentes. Os golpistas utilizam estratégias como a cópia de logotipos, design de páginas e URLs semelhantes a lojas legítimas para tornar os sites falsos mais convincentes. Consequentemente, os consumidores são atraídos por ofertas de produtos aparentemente originais e a preços muito abaixo do mercado, mas acabam recebendo itens de baixa qualidade ou, em muitos casos, não recebem nada.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Esse problema afeta tanto consumidores quanto empresas de comércio eletrônico legítimas, uma vez que a confiança no ambiente de compras online é corroída. Isso pode levar a uma diminuição nas vendas, ao aumento da necessidade de suporte ao cliente para resolver disputas e a danos à reputação das plataformas legítimas.
 
 ## Objetivos
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+A Loja Segura visa ser uma plataforma segura e confiável, que gerenciará as informações oficiais das lojas online, permitindo que os consumidores acessem essas informações e comprem com mais segurança. A proposta é colaborar diretamente com as empresas, oferecendo uma estrutura para que elas gerenciem seus perfis públicos com informações oficiais, ajudando assim a combater golpes e melhorar o marketing e as vendas, além de aumentar a confiança dos consumidores no comércio eletrônico no Brasil.
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A criação de uma plataforma como a Loja Segura é essencial devido ao crescente número de golpes no comércio eletrônico, que prejudicam tanto os consumidores quanto as empresas. As vítimas dessas fraudes não apenas perdem dinheiro, mas também a confiança em compras online. Para as empresas, os golpes afetam diretamente o faturamento e a reputação, tornando necessária uma solução que combata essas práticas e permita uma experiência de compra mais segura e confiável.
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público alvo da Loja Segura inclui consumidores de diferentes faixas etárias, desde jovens até pessoas mais velhas, todos potencialmente expostos a golpes de lojas online falsas. Além dos consumidores, as empresas também são parte importante desse público, pois elas sofrem com a perda de faturamento, prejuízos na experiência do cliente e desvalorização de suas marcas devido às fraudes e falsificações.
 
 # Product Discovery
 
