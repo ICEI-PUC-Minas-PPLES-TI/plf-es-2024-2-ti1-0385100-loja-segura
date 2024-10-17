@@ -49,7 +49,7 @@ O público alvo da Loja Segura inclui consumidores de diferentes faixas etárias
 
 # Product Discovery
 
-## Etapa de Entendimento
+## Etapa de Entendimento kkk
 
 **✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
 
