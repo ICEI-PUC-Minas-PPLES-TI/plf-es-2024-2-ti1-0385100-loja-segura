@@ -53,7 +53,8 @@ O público alvo da Loja Segura inclui consumidores de diferentes faixas etárias
 
 **✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+![image](https://github.com/user-attachments/assets/2dadb8b3-955d-4741-bf88-3f16f345a3ed)
+
 >
 > Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
 >
