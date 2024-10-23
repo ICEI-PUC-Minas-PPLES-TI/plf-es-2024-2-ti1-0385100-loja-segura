@@ -46,46 +46,8 @@
 
 
       <div id="empresa-container" class="container"></div> <!--card das lojas-->
-      
 
-
-      <script>
-        //exemplo para ver se funciona
-        const empresas = [
-          { nome: "Loja A", descricao: "Vende roupas" },
-          { nome: "Loja B", descricao: "Loja de eletrônicos" },
-          { nome: "Loja C", descricao: "Supermercado" },
-        ];
-    
-        const container = document.getElementById('empresa-container');
-    
-        //função para criar um card
-        function criarCard(empresa) {
-          const card = document.createElement('div');
-          card.classList.add('card');
-          
-          const nome = document.createElement('h2');
-          nome.textContent = empresa.nome;
-          
-          const descricao = document.createElement('p');
-          descricao.textContent = empresa.descricao;
-          
-          
-    
-          card.appendChild(nome);
-          card.appendChild(descricao);
-          
-    
-          return card;
-        }
-    
-        
-        empresas.forEach(empresa => {
-          const card = criarCard(empresa);
-          container.appendChild(card);
-        });
-      </script>
-
+      <script src="puxa_loja.js"></script>
 
 <div class="card" id="foot">
     <div class="card-body">
