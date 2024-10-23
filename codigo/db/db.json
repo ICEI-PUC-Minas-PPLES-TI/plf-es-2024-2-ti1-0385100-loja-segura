@@ -21,5 +21,21 @@
       "email": "rommel@gmail.com",
       "id": 3
     }
+  ],
+  "empresas": [
+    {
+      "id": 55,
+      "nome": "PUC"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 331,
+      "idEmpresa": 55,
+      "tipo": "neg",
+      "descricao": "soidjffihfgnihgrjgljg"
+    }
+    
   ]
+
 }

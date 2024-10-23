@@ -1,0 +1,8 @@
+
+        /* Estilos para limitar o tamanho das imagens do carrossel */
+        .carousel-inner img {
+            max-width: 100%; /* Largura máxima de 100% */
+            max-height: 400px; /* Altura máxima de 400px, ajuste conforme necessário */
+            object-fit: cover; /* Para manter a proporção e cobrir a área */
+        }
+   
