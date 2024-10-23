@@ -1,0 +1,18 @@
+
+
+/* Estilo personalizado para os botões */
+.btn-custom {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-custom:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
