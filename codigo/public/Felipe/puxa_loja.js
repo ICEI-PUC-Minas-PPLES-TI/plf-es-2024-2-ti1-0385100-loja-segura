@@ -1,42 +1,48 @@
+// URL do arquivo JSON
+const jsonUrl = 'db.json';
 
-
-// exemplo para ver se funciona
-const empresas = [
-  { nome: "Loja A", descricao: "Vende roupas", imagem: "https://via.placeholder.com/300x200?text=Loja+A", link: "http://127.0.0.1:5501/codigo/public/Felipe/index.html" },
-  { nome: "Loja B", descricao: "Loja de eletrônicos", imagem: "https://via.placeholder.com/300x200?text=Loja+A", link: "http://127.0.0.1:5501/codigo/public/Felipe/index.html" },
-  { nome: "Loja C", descricao: "Supermercado", imagem: "https://via.placeholder.com/300x200?text=Loja+A", link: "http://127.0.0.1:5501/codigo/public/Felipe/index.html" },
-];
-
-const container = document.getElementById('empresa-container');
-
-// função para criar um card
+// Função para criar um card baseado nos dados de cada empresa
 function criarCard(empresa) {
   const card = document.createElement('div');
-  card.classList.add('card');
+  card.classList.add('card', 'mb-3', 'p-3');
 
   const imagem = document.createElement('img');
   imagem.src = empresa.imagem;
   imagem.alt = empresa.nome;
+  imagem.classList.add('card-img-top');
 
   const nome = document.createElement('h2');
   nome.textContent = empresa.nome;
+  nome.classList.add('card-title');
 
-  const descricao = document.createElement('p');
-  descricao.textContent = empresa.descricao;
+  const descrição = document.createElement('p');
+  descrição.textContent = empresa.descrição || "Descrição não disponível"; // Exibe uma descrição padrão se não houver
 
   const link = document.createElement('a');
-  link.textContent = empresa.link;
+  link.textContent = "Visitar site";
   link.href = empresa.link;
+  link.classList.add('btn', 'btn-primary');
 
+  // Adicionar os elementos criados ao card
   card.appendChild(imagem);
   card.appendChild(nome);
-  card.appendChild(descricao);
+  card.appendChild(descrição);  // Adicionando a descrição
   card.appendChild(link);
 
   return card;
 }
 
-empresas.forEach(empresa => {
-  const card = criarCard(empresa);
-  container.appendChild(card);
-});
+// Pegar o container onde os cards vão aparecer
+const container = document.getElementById('empresa-container');
+
+// Função para buscar o arquivo JSON e criar os cards
+fetch(jsonUrl)
+  .then(response => response.json()) // Converte a resposta em JSON
+  .then(data => {
+    const empresas = data.empresas;  // Acessa o array de empresas no JSON
+    empresas.forEach(empresa => {
+      const card = criarCard(empresa);  // Cria o card para cada empresa
+      container.appendChild(card);      // Adiciona o card ao container
+    });
+  })
+  .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
