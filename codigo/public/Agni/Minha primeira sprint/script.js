@@ -86,16 +86,20 @@ function mostrarModal(jsonData, id) {
 
 // Função para iniciar a aplicação
 function iniciarAplicacao(jsonData) {
-    // Adiciona os eventos de clique nas empresas cadastradas
-    document.querySelectorAll('.dropdown-item').forEach(item => {
-        item.addEventListener('click', function() {
-            const empresaNome = this.textContent;
-            const empresa = jsonData.empresas.find(e => e.nome === empresaNome);
-            
-            if (empresa) {
-                mostrarModal(jsonData, empresa.id);
-            }
-        });
+    // Seleciona o elemento dropdown do menu de empresas
+    const dropdownMenu = document.getElementById('empresasDropdownMenu');
+
+    // Limpa o menu dropdown
+    dropdownMenu.innerHTML = '';
+
+    // Adiciona as empresas ao dropdown
+    jsonData.empresas.forEach(empresa => {
+        const item = document.createElement('a');
+        item.classList.add('dropdown-item');
+        item.textContent = empresa.nome;
+        item.href = "#";
+        item.addEventListener('click', () => mostrarModal(jsonData, empresa.id));
+        dropdownMenu.appendChild(item);
     });
 }
 
