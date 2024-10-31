@@ -1,11 +1,23 @@
-// Função para carregar dados JSON
+// Função para carregar dados JSON de múltiplas rotas
 async function carregarDados() {
     try {
-        const response = await fetch('db.json'); 
-        if (!response.ok) {
-            throw new Error('Erro ao carregar dados');
+        // Faz duas requisições para obter empresas e avaliações
+        const [responseEmpresas, responseAvaliacoes] = await Promise.all([
+            fetch('http://localhost:3000/empresas'),
+            fetch('http://localhost:3000/avaliacoes')
+        ]);
+
+        if (!responseEmpresas.ok || !responseAvaliacoes.ok) {
+            throw new Error('Erro ao carregar dados das rotas');
         }
-        const jsonData = await response.json(); // Carrega os dados JSON
+
+        // Converte as respostas para JSON
+        const empresas = await responseEmpresas.json();
+        const avaliacoes = await responseAvaliacoes.json();
+
+        // Combina os dados em um único objeto para compatibilidade com o código existente
+        const jsonData = { empresas, avaliacoes };
+        
         iniciarAplicacao(jsonData); // Passa os dados carregados para a função que inicia a aplicação
     } catch (error) {
         console.error('Erro:', error);

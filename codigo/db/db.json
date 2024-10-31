@@ -22,24 +22,18 @@
       "email": "rommel@gmail.com"
     }
   ],
-
   "empresas": [
     {
-      "id": 2,
+      "id": 1,
       "nome": "StarLink",
-      "imagem": "https://picsum.photos/seed/picsum/200/300",
-      "descrição": "empresa de internet",
-      "link":"https://www.starlink.com/br/residential?referral=RC-481067-34312-6&utm_source=google&utm_medium=paid&utm_campaign=sls_br_src_ggl_brd_stk-pe&utm_content=sls_br_src_ggl_brd_stk-pe_res_gsa_v4s_txt_pt-br_br1400&utm_term=starlink&utm_id=&gad_source=1&gclid=Cj0KCQjwveK4BhD4ARIsAKy6pMJK5MTZObazuc8LrJkuAXeJjT8JLGYOdS3eNF9LFg57wb4V1w53FVsaAjbrEALw_wcB"
+      "imagem": "https://t2.tudocdn.net/605041?w=824&h=494"
     },
     {
-      "id": 1,
+      "id": 2,
       "nome": "InovaTech",
-      "imagem": "https://picsum.photos/200/300?grayscale",
-      "descrição": "empresa de saude",
-      "link": "https://inovatecdf.com.br"
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPmLcT9PGCddTBUEy96ulCa45snDqXSsUs_g&s"
     }
   ],
-
   "avaliacoes": [
     {
       "id_empresa": 1,
@@ -53,21 +47,5 @@
       "status": "falsa",
       "comentario": "Não recebi o produto, parece ser golpe."
     }
-  ],
-  "empresas": [
-    {
-      "id": 55,
-      "nome": "PUC"
-    }
-  ],
-  "reviews": [
-    {
-      "id": 331,
-      "idEmpresa": 55,
-      "tipo": "neg",
-      "descricao": "soidjffihfgnihgrjgljg"
-    }
-    
   ]
-
 }
