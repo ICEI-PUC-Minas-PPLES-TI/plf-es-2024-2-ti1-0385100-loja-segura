@@ -39,7 +39,7 @@ const container = document.getElementById('empresa-container');
 fetch(jsonUrl)
   .then(response => response.json()) // Converte a resposta em JSON
   .then(data => {
-    const empresas = data.empresas;  // Acessa o array de empresas no JSON
+    const empresas = data;  // Acessa o array de empresas no JSON
     empresas.forEach(empresa => {
       const card = criarCard(empresa);  // Cria o card para cada empresa
       container.appendChild(card);      // Adiciona o card ao container

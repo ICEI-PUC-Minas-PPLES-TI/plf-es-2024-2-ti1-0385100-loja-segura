@@ -13,19 +13,29 @@
 // Autor: Rommel Vieira Carneiro
 // Data: 03/10/2023
 
-const jsonServer = require('json-server')
-const server = jsonServer.create()
-const router = jsonServer.router('./db/db.json')
-  
-// Para permitir que os dados sejam alterados, altere a linha abaixo
-// colocando o atributo readOnly como false.
-const middlewares = jsonServer.defaults()
-server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*')
-  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE')
-  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization')
-  next()
-})
+const express = require('express');
+const jsonServer = require('json-server');
+const cors = require('cors');
+const path = require('path');
+const dotenv = require('dotenv');
+
+dotenv.config();
+
+/** Adaptado por @alvimdev */
+
+const server = express();
+const routerPath = path.join(__dirname, 'db/db.json');
+const router = jsonServer.router(routerPath);
+const middlewares = jsonServer.defaults();
+
+server.use(cors());
+server.use(middlewares);
+
+// Usar o router do JSON Server para a API
+server.use('/', router);
+
+// Servir arquivos estáticos da pasta "public"
+server.use(express.static(path.join(__dirname, 'public')));
 
 server.listen(3000, () => {
   console.log(`JSON Server is running em http://localhost:3000`)
