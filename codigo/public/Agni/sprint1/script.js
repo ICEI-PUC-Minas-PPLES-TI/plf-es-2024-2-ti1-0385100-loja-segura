@@ -47,28 +47,28 @@ function mostrarModal(jsonData, id) {
         avaliacoesContainer.appendChild(p);
     });
 
+    // Conta avaliações verdadeiras e falsas
+    const countVerdadeiras = avaliacoes.filter(a => a.status === 'verdadeira').length;
+    const countFalsas = avaliacoes.filter(a => a.status === 'falsa').length;
+
     // Se o gráfico já foi criado, destrói a instância anterior
     if (chartInstance) {
         chartInstance.destroy();
     }
 
-    // Dados fictícios para o gráfico
+    // Dados para o gráfico com base nas avaliações reais
     const graficoDados = {
-        labels: ['Ótima', 'Boa', 'Regular', 'Ruim'],
+        labels: ['Verdadeira', 'Falsa'],
         datasets: [
             {
                 label: 'Avaliações',
-                data: [10, 5, 2, 1], // Números fictícios de avaliações
+                data: [countVerdadeiras, countFalsas],
                 backgroundColor: [
                     'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)',
                     'rgba(255, 99, 132, 0.2)',
                 ],
                 borderColor: [
                     'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)',
                     'rgba(255, 99, 132, 1)',
                 ],
                 borderWidth: 1,
@@ -79,7 +79,7 @@ function mostrarModal(jsonData, id) {
     // Exibe o gráfico
     const ctx = document.getElementById('avaliacaoChart').getContext('2d');
     chartInstance = new Chart(ctx, {
-        type: 'bar', // Tipo do gráfico (pode ser 'bar', 'line', 'pie', etc.)
+        type: 'bar', // Tipo do gráfico
         data: graficoDados,
         options: {
             responsive: true,
