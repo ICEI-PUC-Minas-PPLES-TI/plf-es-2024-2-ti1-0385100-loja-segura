@@ -26,104 +26,145 @@
       {
         "id": 3,
         "nome": "TechGuru",
-        "imagem": "https://example.com/techguru.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Plataforma especializada em tecnologia com uma ampla variedade de produtos de última geração."
       },
       {
         "id": 4,
         "nome": "EcoPower",
-        "imagem": "https://example.com/ecopower.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Empresa focada em soluções de energia sustentável e renovável para residências e empresas."
       },
       {
         "id": 5,
         "nome": "CyberMall",
-        "imagem": "https://example.com/cybermall.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Marketplace digital com uma grande seleção de produtos eletrônicos e de informática."
       },
       {
         "id": 6,
         "nome": "ElectroShop",
-        "imagem": "https://example.com/electroshop.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Loja online especializada em eletrônicos, desde gadgets até eletrodomésticos."
       },
       {
         "id": 7,
         "nome": "FashionHub",
-        "imagem": "https://example.com/fashionhub.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Rede de moda e acessórios com as últimas tendências para todos os estilos."
       },
       {
         "id": 8,
         "nome": "BookNook",
-        "imagem": "https://example.com/booknook.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Livraria online com uma vasta coleção de títulos de diversos gêneros."
       },
       {
         "id": 9,
         "nome": "HomeEssentials",
-        "imagem": "https://example.com/homeessentials.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Tudo o que você precisa para sua casa, desde decoração até utensílios domésticos."
       },
       {
         "id": 10,
         "nome": "PetWorld",
-        "imagem": "https://example.com/petworld.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Loja online para produtos e serviços para pets, com um amplo catálogo para diversos animais."
       },
       {
         "id": 11,
         "nome": "GadgetFlow",
-        "imagem": "https://example.com/gadgetflow.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Portal para os entusiastas de gadgets, com os lançamentos mais recentes do mercado."
       },
       {
         "id": 12,
         "nome": "AutoPartsPro",
-        "imagem": "https://example.com/autopartspro.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Especialistas em peças e acessórios automotivos para manutenção e customização."
       },
       {
         "id": 13,
         "nome": "BeautyBliss",
-        "imagem": "https://example.com/beautybliss.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Loja de cosméticos e produtos de beleza com as melhores marcas e tendências."
       },
       {
         "id": 14,
         "nome": "OutdoorKing",
-        "imagem": "https://example.com/outdoorking.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Equipamentos e acessórios para atividades ao ar livre, camping e esportes de aventura."
       },
       {
         "id": 15,
         "nome": "OfficeGear",
-        "imagem": "https://example.com/officegear.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Fornecedora de material de escritório e móveis para empresas e home offices."
       },
       {
         "id": 16,
         "nome": "KidsWorld",
-        "imagem": "https://example.com/kidsworld.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Brinquedos, roupas e acessórios para crianças de todas as idades."
       },
       {
         "id": 17,
         "nome": "KitchenEssentials",
-        "imagem": "https://example.com/kitchenessentials.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Produtos e utensílios de cozinha para todos os tipos de preparo culinário."
       },
       {
         "id": 18,
         "nome": "SportsMax",
-        "imagem": "https://example.com/sportsmax.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Artigos esportivos para uma grande variedade de modalidades e atividades físicas."
       },
       {
         "id": 19,
         "nome": "TravelLite",
-        "imagem": "https://example.com/travellite.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Loja de artigos de viagem, malas e acessórios para tornar seu deslocamento mais prático."
       },
       {
         "id": 20,
         "nome": "SmartHome",
-        "imagem": "https://example.com/smarthome.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Tecnologia para automação residencial, oferecendo segurança e comodidade."
       },
       {
         "id": 21,
         "nome": "StyleSpot",
-        "imagem": "https://example.com/stylespot.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "E-commerce de moda, com um foco especial em marcas independentes e tendências urbanas."
       },
       {
         "id": 22,
         "nome": "HealthFirst",
-        "imagem": "https://example.com/healthfirst.png"
+        "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "descricao": "Produtos de saúde e bem-estar para auxiliar no autocuidado e qualidade de vida."
       }
-    ],
+]
+,
     "avaliacoes": [
       {
         "id_empresa": 3,
