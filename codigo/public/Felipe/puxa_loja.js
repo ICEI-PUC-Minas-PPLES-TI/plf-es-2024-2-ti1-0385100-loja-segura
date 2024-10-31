@@ -1,5 +1,5 @@
 // URL do arquivo JSON
-const jsonUrl = 'db.json';
+const jsonUrl = '/empresas';
 
 // Função para criar um card baseado nos dados de cada empresa
 function criarCard(empresa) {
