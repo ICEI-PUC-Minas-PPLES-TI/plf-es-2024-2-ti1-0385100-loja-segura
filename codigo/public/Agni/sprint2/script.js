@@ -15,6 +15,9 @@ window.onload = async function() {
         option.textContent = empresa.nome;
         selectElement.appendChild(option);
     });
+
+    // Carregar as denúncias feitas
+    carregarDenuncias();
 };
 
 // Função para enviar a denúncia
@@ -50,6 +53,7 @@ async function enviarDenuncia() {
     if (response.ok) {
         alert('Denúncia enviada com sucesso!');
         document.getElementById('denunciaForm').reset(); // Limpar o formulário após envio
+        carregarDenuncias(); // Recarregar as denúncias
     } else {
         alert('Erro ao enviar a denúncia!');
     }
@@ -82,4 +86,60 @@ function setAvaliacao(valor) {
 
     // Mostrar a avaliação no console (opcional para debug)
     console.log(`Avaliação: ${valor}`);
+}
+
+// Função para carregar as denúncias feitas
+async function carregarDenuncias() {
+    const response = await fetch('/denuncias');
+    const denuncias = await response.json();
+
+    const denunciasTable = document.getElementById('denunciasTable');
+    // Limpar a tabela antes de adicionar novos dados
+    denunciasTable.innerHTML = `
+        <thead>
+            <tr>
+                <th>Usuário</th>
+                <th>Loja</th>
+                <th>URL</th>
+                <th>Comentário</th>
+                <th>Status</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    `;
+
+    const tbody = denunciasTable.querySelector('tbody');
+
+    denuncias.forEach(denuncia => {
+        const row = document.createElement('tr');
+
+        row.innerHTML = `
+            <td>${denuncia.usuario}</td>
+            <td>${denuncia.nomeLoja}</td>
+            <td><a href="${denuncia.url}" target="_blank">${denuncia.url}</a></td>
+            <td>${denuncia.comentario}</td>
+            <td>${denuncia.status}</td>
+            <td>
+                <button class="btn btn-danger" onclick="excluirDenuncia(${denuncia.id})">Excluir</button>
+            </td>
+        `;
+
+        tbody.appendChild(row);
+    });
+}
+
+// Função para excluir uma denúncia
+async function excluirDenuncia(id) {
+    const response = await fetch(`/denuncias/${id}`, {
+        method: 'DELETE'
+    });
+
+    if (response.ok) {
+        alert('Denúncia excluída com sucesso!');
+        carregarDenuncias();
+    } else {
+        alert('Erro ao excluir a denúncia!');
+    }
 }

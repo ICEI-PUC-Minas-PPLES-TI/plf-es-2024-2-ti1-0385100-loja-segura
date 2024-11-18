@@ -294,48 +294,28 @@
   ],
   "denuncias": [
     {
-      "nomeLoja": "testando loja",
-      "urlLoja": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "experiencia": "muito ruim nao gostei",
-      "avaliacao": "não",
-      "id": 1
-    },
-    {
-      "nomeLoja": "teste2",
-      "urlLoja": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "experiencia": "asdadsadafaaga",
-      "avaliacao": "sim",
+      "id_empresa": 3,
+      "usuario": "asadad",
+      "status": "verdadeira",
+      "comentario": "asddadad",
+      "url": "sdssadadasdd",
       "id": 2
     },
     {
       "id_empresa": 13,
-      "usuario": "Agni Sofia Gomes C",
-      "status": "falsa",
-      "comentario": "SADASDAS",
+      "usuario": "Agni Sofia ",
+      "status": "verdadeira",
+      "comentario": "asssssssssssssssssss",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
       "id": 3
     },
     {
-      "id_empresa": 4,
-      "usuario": "teste1",
+      "id_empresa": 14,
+      "usuario": "zelia",
       "status": "falsa",
-      "comentario": "asgagasg",
+      "comentario": "nao",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
       "id": 4
-    },
-    {
-      "id_empresa": 3,
-      "usuario": "agni",
-      "status": "Sim",
-      "comentario": "drgdrg",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "id": 5
-    },
-    {
-      "id_empresa": 18,
-      "usuario": "fefe",
-      "status": "Sim",
-      "comentario": "dsdsdddddd",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "id": 6
     }
   ]
 }
