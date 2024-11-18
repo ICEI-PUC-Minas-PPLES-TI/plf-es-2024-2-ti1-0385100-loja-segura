@@ -166,121 +166,121 @@
 ]
 ,
     "avaliacoes": [
-      {
+      { "id" : 1,
         "id_empresa": 3,
         "usuario": "Carlos Eduardo",
         "status": "verdadeira",
         "comentario": "Produtos de ótima qualidade, recomendo!"
       },
-      {
+      { "id" : 2,
         "id_empresa": 4,
         "usuario": "Ana Beatriz",
         "status": "falsa",
         "comentario": "Produto nunca chegou, empresa suspeita."
       },
-      {
+      { "id" : 3,
         "id_empresa": 5,
         "usuario": "Renato Almeida",
         "status": "verdadeira",
         "comentario": "Serviço excelente e entrega rápida!"
       },
-      {
+      { "id" : 4,
         "id_empresa": 6,
         "usuario": "Lúcia Ferreira",
         "status": "falsa",
         "comentario": "Experiência terrível, não recomendo."
       },
-      {
+      { "id" : 5,
         "id_empresa": 7,
         "usuario": "Gabriela Nunes",
         "status": "verdadeira",
         "comentario": "Adorei as peças, são lindas!"
       },
-      {
+      { "id" : 6,
         "id_empresa": 8,
         "usuario": "João Pedro",
         "status": "verdadeira",
         "comentario": "Grande variedade de livros, ótimo atendimento."
       },
-      {
+      { "id" : 7,
         "id_empresa": 9,
         "usuario": "Marina Costa",
         "status": "falsa",
         "comentario": "Propaganda enganosa, cuidado!"
       },
-      {
+      { "id" : 8,
         "id_empresa": 10,
         "usuario": "Ricardo Rocha",
         "status": "verdadeira",
         "comentario": "Encontrei tudo o que precisava para meu pet!"
       },
-      {
+      { "id" : 9,
         "id_empresa": 11,
         "usuario": "Isabel Fernandes",
         "status": "falsa",
         "comentario": "Produto de baixa qualidade, insatisfeita."
       },
-      {
+      { "id" : 10,
         "id_empresa": 12,
         "usuario": "Fernando Luiz",
         "status": "verdadeira",
         "comentario": "Peças para carro de qualidade, excelente loja."
       },
-      {
+      { "id" : 11,
         "id_empresa": 13,
         "usuario": "Patrícia Souza",
         "status": "falsa",
         "comentario": "Não vale o preço, muita demora na entrega."
       },
-      {
+      { "id" : 12,
         "id_empresa": 14,
         "usuario": "Daniel Santos",
         "status": "verdadeira",
         "comentario": "Ótimo para produtos de camping!"
       },
-      {
+      { "id" : 13,
         "id_empresa": 15,
         "usuario": "Fátima Lopes",
         "status": "verdadeira",
         "comentario": "Tudo o que eu precisava para meu escritório!"
       },
-      {
+      { "id" : 14,
         "id_empresa": 16,
         "usuario": "Vinícius Moraes",
         "status": "verdadeira",
         "comentario": "Brinquedos seguros e bem feitos."
       },
-      {
+      { "id" : 15,
         "id_empresa": 17,
         "usuario": "Cláudia Ribeiro",
         "status": "falsa",
         "comentario": "Péssimo atendimento, não recomendo."
       },
-      {
+      { "id" : 16,
         "id_empresa": 18,
         "usuario": "Lucas Andrade",
         "status": "verdadeira",
         "comentario": "Excelente para quem pratica esportes!"
       },
-      {
+      { "id" : 17,
         "id_empresa": 19,
         "usuario": "Alice Gomes",
         "status": "verdadeira",
         "comentario": "Ótima experiência, produtos de qualidade."
       },
-      {
+      { "id" : 18,
         "id_empresa": 20,
         "usuario": "Eduardo Pereira",
         "status": "falsa",
         "comentario": "Não recebi o produto até agora."
       },
-      {
+      { "id" : 19,
         "id_empresa": 21,
         "usuario": "Rafaela Silva",
         "status": "verdadeira",
         "comentario": "Lojas com roupas super estilosas!"
       },
-      {
+      { "id" : 20,
         "id_empresa": 22,
         "usuario": "Roberto Lima",
         "status": "verdadeira",
