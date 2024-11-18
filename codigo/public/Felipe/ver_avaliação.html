@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--http://localhost:3000/felipe/ver_avaliação.html-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,55 +40,38 @@
               <li class="nav-item">
                 <button type="button" class="btn" href="#">Empresas Cadastradas</button>
               </li>
-              <li class="nav-item">
-                <button type="button" class="btn" href="http://127.0.0.1:5501/codigo/public/Felipe/ver_avaliação.html">Avaliações das empresas</button>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
 
+      <div class="container mt-5">
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Escolha uma empresa
+          </button>
+          <ul class="dropdown-menu" id="dropdownMenu">
+            <!-- Opções geradas dinamicamente -->
+          </ul>
+        </div>
+        <div id="empresaDetalhes" class="mt-4">
+          <!-- Detalhes da empresa serão exibidos aqui -->
+        </div>
+      </div>
+  
+      <script src="puxa_avaliação.js"></script>
+  
+    </div>
 
-      <div id="empresa-container" class="container"></div> <!--card das lojas-->
+
+      
       
 
 
-      <script src="puxa_loja.js">
-        //exemplo para ver se funciona
-        const empresas = [
-          { nome: "Loja A", descricao: "Vende roupas" },
-          { nome: "Loja B", descricao: "Loja de eletrônicos" },
-          { nome: "Loja C", descricao: "Supermercado" },
-        ];
-    
-        const container = document.getElementById('empresa-container');
-    
-        //função para criar um card
-        function criarCard(empresa) {
-          const card = document.createElement('div');
-          card.classList.add('card');
-          
-          const nome = document.createElement('h2');
-          nome.textContent = empresa.nome;
-          
-          const descricao = document.createElement('p');
-          descricao.textContent = empresa.descricao;
-          
-          
-    
-          card.appendChild(nome);
-          card.appendChild(descricao);
-          
-    
-          return card;
-        }
-    
+      
         
-        empresas.forEach(empresa => {
-          const card = criarCard(empresa);
-          container.appendChild(card);
-        });
-      </script>
+       
+       
 
 
 <div class="card" id="foot">
