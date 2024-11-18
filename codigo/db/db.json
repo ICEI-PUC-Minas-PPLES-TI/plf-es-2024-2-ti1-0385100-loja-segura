@@ -292,30 +292,5 @@
       "comentario": "Produtos de saúde confiáveis e entrega rápida."
     }
   ],
-  "denuncias": [
-    {
-      "id_empresa": 3,
-      "usuario": "asadad",
-      "status": "verdadeira",
-      "comentario": "asddadad",
-      "url": "sdssadadasdd",
-      "id": 2
-    },
-    {
-      "id_empresa": 13,
-      "usuario": "Agni Sofia ",
-      "status": "verdadeira",
-      "comentario": "asssssssssssssssssss",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "id": 3
-    },
-    {
-      "id_empresa": 14,
-      "usuario": "zelia",
-      "status": "falsa",
-      "comentario": "nao",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "id": 4
-    }
-  ]
+  "denuncias": []
 }

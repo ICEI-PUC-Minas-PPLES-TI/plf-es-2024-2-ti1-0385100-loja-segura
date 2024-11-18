@@ -93,6 +93,10 @@ async function carregarDenuncias() {
     const response = await fetch('/denuncias');
     const denuncias = await response.json();
 
+    // Obter as empresas do servidor (isso pode ser otimizado se já tiver a lista das empresas carregada previamente)
+    const empresasResponse = await fetch('/empresas');
+    const empresas = await empresasResponse.json();
+
     const denunciasTable = document.getElementById('denunciasTable');
     // Limpar a tabela antes de adicionar novos dados
     denunciasTable.innerHTML = `
@@ -113,11 +117,14 @@ async function carregarDenuncias() {
     const tbody = denunciasTable.querySelector('tbody');
 
     denuncias.forEach(denuncia => {
+        // Buscar o nome da loja pelo ID da empresa
+        const empresa = empresas.find(emp => emp.id === denuncia.id_empresa);
+
         const row = document.createElement('tr');
 
         row.innerHTML = `
             <td>${denuncia.usuario}</td>
-            <td>${denuncia.nomeLoja}</td>
+            <td>${empresa ? empresa.nome : 'Empresa não encontrada'}</td>
             <td><a href="${denuncia.url}" target="_blank">${denuncia.url}</a></td>
             <td>${denuncia.comentario}</td>
             <td>${denuncia.status}</td>
