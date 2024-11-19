@@ -129,7 +129,8 @@ async function carregarDenuncias() {
             <td>${denuncia.comentario}</td>
             <td>${denuncia.status}</td>
             <td>
-                <button class="btn btn-danger" onclick="excluirDenuncia(${denuncia.id})">Excluir</button>
+                <button class="btn btn-warning" onclick="editarDenuncia(${denuncia.id})">Editar</button>
+                <button class="btn btn-danger" onclick="deletarDenuncia(${denuncia.id})">Deletar</button>
             </td>
         `;
 
@@ -137,16 +138,66 @@ async function carregarDenuncias() {
     });
 }
 
-// Função para excluir uma denúncia
-async function excluirDenuncia(id) {
-    const response = await fetch(`/denuncias/${id}`, {
-        method: 'DELETE'
-    });
+// Função para editar uma denúncia (abrir o modal com as informações)
+async function editarDenuncia(id) {
+    // Obter os dados da denúncia específica
+    const response = await fetch(`/denuncias/${id}`);
+    const denuncia = await response.json();
+
+    // Preencher os campos do formulário de edição com os dados da denúncia
+    document.getElementById('editarNomeUsuario').value = denuncia.usuario;
+    document.getElementById('editarIdLoja').value = denuncia.id_empresa;
+    document.getElementById('editarUrlLoja').value = denuncia.url;
+    document.getElementById('editarExperiencia').value = denuncia.comentario;
+    document.getElementById('editarAvaliacao').value = denuncia.status;
+
+    // Mostrar o modal de edição
+    const modal = new bootstrap.Modal(document.getElementById('editarModal'));
+    modal.show();
+
+    // Configurar a função de salvar as alterações
+    document.getElementById('salvarAlteracoes').onclick = async function() {
+        const nomeUsuario = document.getElementById('editarNomeUsuario').value;
+        const nomeLoja = document.getElementById('editarIdLoja').value;
+        const urlLoja = document.getElementById('editarUrlLoja').value;
+        const experiencia = document.getElementById('editarExperiencia').value;
+        const avaliacao = document.getElementById('editarAvaliacao').value;
+
+        // Atualizar os dados da denúncia no servidor
+        const denunciaAtualizada = {
+            usuario: nomeUsuario,
+            id_empresa: nomeLoja,
+            url: urlLoja,
+            comentario: experiencia,
+            status: avaliacao
+        };
+
+        const updateResponse = await fetch(`/denuncias/${id}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(denunciaAtualizada)
+        });
+
+        if (updateResponse.ok) {
+            alert('Denúncia atualizada com sucesso!');
+            carregarDenuncias(); // Recarregar as denúncias
+            modal.hide(); // Fechar o modal
+        } else {
+            alert('Erro ao atualizar a denúncia!');
+        }
+    };
+}
+
+// Função para deletar uma denúncia
+async function deletarDenuncia(id) {
+    const response = await fetch(`/denuncias/${id}`, { method: 'DELETE' });
 
     if (response.ok) {
-        alert('Denúncia excluída com sucesso!');
-        carregarDenuncias();
+        alert('Denúncia deletada com sucesso!');
+        carregarDenuncias(); // Recarregar as denúncias após a exclusão
     } else {
-        alert('Erro ao excluir a denúncia!');
+        alert('Erro ao deletar a denúncia!');
     }
 }

@@ -113,6 +113,38 @@
         </div>
     </footer>
 
+    <!-- Modal para Editar Denúncia -->
+    <div class="modal fade" id="editarModal" tabindex="-1" aria-labelledby="editarModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editarModalLabel">Editar Denúncia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Campos do formulário para editar a denúncia -->
+                    <label for="editarNomeUsuario">Nome do Usuário:</label>
+                    <input type="text" id="editarNomeUsuario" class="form-control">
+                    <label for="editarIdLoja">Loja:</label>
+                    <select id="editarIdLoja" class="form-control"></select>
+                    <label for="editarUrlLoja">URL da Loja:</label>
+                    <input type="text" id="editarUrlLoja" class="form-control">
+                    <label for="editarExperiencia">Comentário:</label>
+                    <textarea id="editarExperiencia" class="form-control"></textarea>
+                    <label for="editarAvaliacao">Avaliação:</label>
+                    <select id="editarAvaliacao" class="form-control">
+                        <option value="verdadeira">Verdadeira</option>
+                        <option value="falsa">Falsa</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary" id="salvarAlteracoes">Salvar alterações</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

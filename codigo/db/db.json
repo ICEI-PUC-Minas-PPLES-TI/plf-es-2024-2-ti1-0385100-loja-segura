@@ -292,5 +292,22 @@
       "comentario": "Produtos de saúde confiáveis e entrega rápida."
     }
   ],
-  "denuncias": []
+  "denuncias": [
+    {
+      "usuario": "sofea",
+      "id_empresa": "",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
+      "comentario": "saudades",
+      "status": "falsa",
+      "id": 1
+    },
+    {
+      "usuario": "testeaaaa",
+      "id_empresa": "",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
+      "comentario": "sadad",
+      "status": "verdadeira",
+      "id": 2
+    }
+  ]
 }
