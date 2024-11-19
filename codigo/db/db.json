@@ -294,11 +294,11 @@
   ],
   "denuncias": [
     {
-      "usuario": "sofea",
-      "id_empresa": "",
+      "usuario": "sofia",
+      "id_empresa": "5",
       "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "comentario": "saudades",
-      "status": "falsa",
+      "comentario": "saudadadada",
+      "status": "verdadeira",
       "id": 1
     },
     {
@@ -308,6 +308,22 @@
       "comentario": "sadad",
       "status": "verdadeira",
       "id": 2
+    },
+    {
+      "id_empresa": 3,
+      "usuario": "sim",
+      "status": "verdadeira",
+      "comentario": "nao",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
+      "id": 3
+    },
+    {
+      "usuario": "sfazf",
+      "id_empresa": "13",
+      "url": "asdasdadad",
+      "comentario": "assfaf",
+      "status": "verdadeira",
+      "id": 4
     }
   ]
 }

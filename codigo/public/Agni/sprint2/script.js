@@ -144,12 +144,31 @@ async function editarDenuncia(id) {
     const response = await fetch(`/denuncias/${id}`);
     const denuncia = await response.json();
 
+    // Obter as empresas para preencher o campo de seleção
+    const empresasResponse = await fetch('/empresas');
+    const empresas = await empresasResponse.json();
+
     // Preencher os campos do formulário de edição com os dados da denúncia
     document.getElementById('editarNomeUsuario').value = denuncia.usuario;
-    document.getElementById('editarIdLoja').value = denuncia.id_empresa;
     document.getElementById('editarUrlLoja').value = denuncia.url;
     document.getElementById('editarExperiencia').value = denuncia.comentario;
     document.getElementById('editarAvaliacao').value = denuncia.status;
+
+    // Preencher o campo de seleção com as empresas
+    const selectElement = document.getElementById('editarIdLoja');
+    selectElement.innerHTML = ''; // Limpar as opções existentes no campo de seleção
+    empresas.forEach(empresa => {
+        const option = document.createElement('option');
+        option.value = empresa.id;
+        option.textContent = empresa.nome;
+
+        // Selecionar a loja que corresponde ao id da denúncia
+        if (empresa.id === denuncia.id_empresa) {
+            option.selected = true;
+        }
+
+        selectElement.appendChild(option);
+    });
 
     // Mostrar o modal de edição
     const modal = new bootstrap.Modal(document.getElementById('editarModal'));
