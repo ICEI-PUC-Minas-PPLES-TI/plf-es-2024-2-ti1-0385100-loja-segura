@@ -294,35 +294,19 @@
   ],
   "denuncias": [
     {
-      "usuario": "sofia",
-      "id_empresa": "5",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "comentario": "saudadadada",
+      "id_empresa": 4,
+      "usuario": "Agni Sofia Gomes Chaves",
       "status": "verdadeira",
-      "id": 1
-    },
-    {
-      "usuario": "testeaaaa",
-      "id_empresa": "",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "comentario": "sadad",
-      "status": "verdadeira",
-      "id": 2
-    },
-    {
-      "id_empresa": 3,
-      "usuario": "sim",
-      "status": "verdadeira",
-      "comentario": "nao",
+      "comentario": "Muito boa, verdadeira.",
       "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
       "id": 3
     },
     {
-      "usuario": "sfazf",
-      "id_empresa": "13",
-      "url": "asdasdadad",
-      "comentario": "assfaf",
-      "status": "verdadeira",
+      "id_empresa": 4,
+      "usuario": "Felipe Cury ",
+      "status": "falsa",
+      "comentario": "Muito ruim.",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
       "id": 4
     }
   ]

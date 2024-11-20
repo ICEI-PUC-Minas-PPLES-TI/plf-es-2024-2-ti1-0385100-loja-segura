@@ -130,7 +130,7 @@ async function carregarDenuncias() {
             <td>${denuncia.status}</td>
             <td>
                 <button class="btn btn-warning" onclick="editarDenuncia(${denuncia.id})">Editar</button>
-                <button class="btn btn-danger" onclick="deletarDenuncia(${denuncia.id})">Deletar</button>
+                <button class="btn btn-danger" onclick="deletarDenuncia(${denuncia.id})">Excluir</button>
             </td>
         `;
 
