@@ -15,8 +15,8 @@ function criarCard(empresa) {
   nome.textContent = empresa.nome;
   nome.classList.add('card-title');
 
-  const descrição = document.createElement('p');
-  descrição.textContent = empresa.descrição || "Descrição não disponível"; // Exibe uma descrição padrão se não houver
+  const descricao = document.createElement('p');
+  descricao.textContent = empresa.descricao || "descricao não disponível"; // Exibe uma descricao padrão se não houver
 
   const link = document.createElement('a');
   link.textContent = "Visitar site";
@@ -26,7 +26,7 @@ function criarCard(empresa) {
   // Adicionar os elementos criados ao card
   card.appendChild(imagem);
   card.appendChild(nome);
-  card.appendChild(descrição);  // Adicionando a descrição
+  card.appendChild(descricao);  // Adicionando a descricao
   card.appendChild(link);
 
   return card;
