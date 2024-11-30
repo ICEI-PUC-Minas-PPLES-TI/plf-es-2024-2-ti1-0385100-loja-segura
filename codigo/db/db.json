@@ -25,13 +25,13 @@
     "empresas": [
       {
         "id": 3,
-        "nome": "TechGuru",
-        "imagem": "https://example.com/techguru.png"
+        "nome": "StarLink",
+        "imagem": "https://t2.tudocdn.net/605041?w=824&h=494"
       },
       {
         "id": 4,
-        "nome": "EcoPower",
-        "imagem": "https://example.com/ecopower.png"
+        "nome": "InovaTech",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPmLcT9PGCddTBUEy96ulCa45snDqXSsUs_g&s"
       },
       {
         "id": 5,
