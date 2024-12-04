@@ -56,9 +56,10 @@ As empresas participantes, por outro lado, incluem tanto grandes marcas consolid
 
 ## Etapa de Entendimento
 
-> * **Matriz CSD**: também conhecida por Matriz de Alinhamento, é uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas;
+> * A seguir, a **Matriz CSD**: também conhecida por Matriz de Alinhamento, uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas:
 > ![matriz](https://github.com/user-attachments/assets/d1a4251c-01e6-4ad4-96a2-125d5d64886c)
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
+> * A seguir, o**Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema:
+> ![image](https://github.com/user-attachments/assets/47c52151-419d-420d-87d0-ee488024bf32)
 > * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 
