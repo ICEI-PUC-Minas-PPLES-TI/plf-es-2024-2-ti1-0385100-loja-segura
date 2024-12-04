@@ -82,7 +82,7 @@ As empresas participantes, por outro lado, incluem tanto grandes marcas consolid
 >
 > ## [Felipe Cury]  Entrevistado : Claudia
 > ![image](https://github.com/user-attachments/assets/bac0bad2-08ba-4cc8-abd4-b810cde0f624)
-> ![image](https://github.com/user-attachments/assets/bb2ed432-3d62-46d9-b97d-f2a459a3a432)
+> ![image](https://github.com/user-attachments/assets/092d2eae-6fb4-4a3b-bc9b-95e2dff84f2d)
 > ![image](https://github.com/user-attachments/assets/1586dca9-3d11-4f4c-9766-3693c4aee520)
 
 
@@ -90,18 +90,19 @@ As empresas participantes, por outro lado, incluem tanto grandes marcas consolid
 
 ### Personas
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
+As Personas representam os perfis fictícios criados com base em dados reais para guiar o desenvolvimento do projeto e garantir que as soluções atendam às necessidades dos usuários.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+> ## Persona 1: Lucas Lima
+![image](https://github.com/user-attachments/assets/28bea441-176a-4a00-aef8-7095347a8b79)
+>![image](https://github.com/user-attachments/assets/17cd3786-074e-46cd-8e0d-52d5a18ea564)
+
+
+> ## Persona 2: Alexandra Soraes
+>![image](https://github.com/user-attachments/assets/77b36afa-148d-4bef-9682-1ea025b85bab)
+>![image](https://github.com/user-attachments/assets/7a5fe3ab-38b9-4ff9-a122-e038cc2b123b)
+
+
+
 
 # Product Design
 
