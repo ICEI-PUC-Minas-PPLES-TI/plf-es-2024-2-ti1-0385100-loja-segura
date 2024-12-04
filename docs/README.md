@@ -1,18 +1,18 @@
 # Introdução
 
-Informações básicas do projeto.
+Este documento apresenta as informações detalhadas sobre o projeto Loja Segura, uma plataforma dedicada a oferecer uma experiência de compras online mais segura e confiável para os usuários. O projeto foi desenvolvido como parte de uma disciplina acadêmica e busca atender às necessidades de consumidores que enfrentam dificuldades e inseguranças ao realizar transações em sites de lojas virtuais.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Projeto:** Loja Segura
+* **Repositório GitHub:** https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-loja-segura.git
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
+  * [Agni Sofia](https://github.com/DopyCat) 
   * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
   * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
 
 A documentação do projeto é estruturada da seguinte forma:
 
-1. Introdução
+1. Introdução:
 2. Contexto
 3. Product Discovery
 4. Product Design
@@ -28,58 +28,31 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+O comércio eletrônico tem experimentado um crescimento acelerado, proporcionando comodidade e acesso a uma variedade de produtos e serviços. No entanto, esse crescimento também traz consigo sérios problemas de segurança e confiança. Muitos consumidores enfrentam dificuldades para identificar lojas online seguras e autênticas, o que os torna vulneráveis a fraudes, roubo de dados pessoais e financeiros, e outros tipos de golpes. A falta de informações confiáveis e a ausência de regulamentação eficiente contribuem para um ambiente em que é fácil para sites falsificados se disfarçarem de plataformas legítimas.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Esse cenário afeta tanto os consumidores, que podem sofrer prejuízos financeiros e perda de dados sensíveis, quanto as empresas de e-commerce honestas, que enfrentam desafios para manter a confiança do cliente em um ambiente onde o risco de fraudes é alto. A necessidade de uma ferramenta que ajude os usuários a verificar a autenticidade das lojas online, identificando potenciais riscos antes da compra, é evidente. Essa aplicação visa proteger os consumidores e contribuir para um ecossistema de comércio eletrônico mais seguro e confiável, promovendo uma experiência de compra mais protegida e aumentando a confiança nas transações digitais.
 
 ## Objetivos
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+**Objetivos**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo principal é desenvolver um site seguro e confiável que gerencie as informações oficiais de lojas virtuais, permitindo que os consumidores tenham acesso a dados verificados para realizar compras com segurança. Dessa forma, buscamos proporcionar um ambiente digital onde o risco de fraudes seja minimizado, oferecendo uma experiência de compra online mais protegida.
+
+Para alcançar esse objetivo principal, temos dois objetivos específicos. Primeiramente, garantir que as empresas possam criar e gerenciar perfis públicos completos e atualizados, com informações oficiais que assegurem a autenticidade de suas operações. Em segundo lugar, fomentar a colaboração entre a plataforma e as empresas para promover um ecossistema mais seguro, onde as práticas de golpes e fraudes sejam desestimuladas, contribuindo para um mercado mais confiável e fortalecendo a reputação das marcas. Com esses objetivos, a Loja Segura pretende beneficiar tanto os consumidores, oferecendo um espaço de compras mais seguro, quanto as empresas, que poderão reforçar a confiança do público e melhorar suas estratégias de marketing e vendas.
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+A justificativa para a criação da Loja Segura está fundamentada na necessidade de combater o crescente problema de golpes e fraudes em lojas online, uma preocupação que afeta consumidores e empresas em todo o Brasil. Com o aumento do comércio eletrônico, crescem também as oportunidades para golpes de falsificação e fraudes, o que prejudica a confiança do consumidor e, por consequência, impacta negativamente as empresas honestas. A insegurança no ambiente digital tem levado a perdas significativas em termos de faturamento, reputação e fidelidade dos clientes, criando um ciclo prejudicial que precisa ser interrompido.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O desenvolvimento de um site que reúna e gerencie informações oficiais das lojas online é essencial para proteger os consumidores e apoiar as empresas na construção de uma imagem mais transparente e confiável. Os objetivos específicos, como permitir a criação e gestão de perfis por parte das empresas, foram escolhidos para oferecer um controle robusto sobre as informações disponibilizadas, garantindo a veracidade das mesmas. Além disso, incentivar a colaboração das empresas para o fortalecimento do mercado e a redução dos golpes visa criar um ambiente de comércio eletrônico mais seguro e sustentável. Com base em estudos de mercado e relatos de vítimas de fraudes online, a necessidade de uma plataforma como a Loja Segura se torna evidente para garantir mais segurança nas transações virtuais, promovendo a confiança tanto de consumidores quanto de comerciantes.
 
 ## Público-Alvo
 
 **✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo pode incluir uma variedade de perfis, abrangendo desde consumidores finais até empresas que atuam no comércio eletrônico. Os consumidores são pessoas de diferentes faixas etárias e níveis de conhecimento tecnológico, desde jovens que estão familiarizados com a internet e compras online, até indivíduos mais velhos que buscam informações confiáveis para garantir uma experiência de compra segura. Esses consumidores possuem em comum o desejo de evitar fraudes e garantir a legitimidade das lojas nas quais realizam suas transações. Eles podem ter diferentes níveis de familiaridade com plataformas digitais, desde os mais experientes, que esperam funcionalidades avançadas, até aqueles que precisam de uma interface simplificada e intuitiva.
+
+As empresas participantes, por outro lado, incluem tanto grandes marcas consolidadas quanto pequenos e médios empreendedores que buscam destacar-se em um mercado competitivo. Elas têm um interesse particular em manter uma imagem confiável e melhorar sua presença digital, minimizando o impacto de golpes que possam afetar sua reputação. As empresas têm, geralmente, diferentes níveis de familiaridade com tecnologias de gestão de informações e plataformas digitais. Algumas podem já ter estratégias de marketing e presença online bem estabelecidas, enquanto outras podem precisar de uma solução mais acessível e fácil de integrar. Esse público-alvo é composto por profissionais que, em sua maioria, têm conhecimentos básicos a intermediários em tecnologia e estão motivados a proteger suas operações e seus clientes de fraudes e falsificações online.
 
 # Product Discovery
 
