@@ -148,7 +148,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-006 | O tempo de carregamento das páginas não deve ultrapassar 2 segundos em conexões de internet padrão. | MÉDIA      |
 | RNF-007 | A plataforma deve ser compatível com os principais navegadores, como Chrome, Firefox, Safari e Edge. | ALTA       |
 | RNF-008 | O sistema deve ser escalável, permitindo a adição de novos recursos sem comprometer a performance. | MÉDIA      |
-| RNF-009 | As operações de verificação e atualização de perfis devem ter um nível de segurança que previna ataques como SQL injection e XSS. | ALTA       |
 | RNF-010 | A interface deve ter um design intuitivo e de fácil navegação para todos os perfis de usuários. | ALTA       |
 
 ## Projeto de Interface
