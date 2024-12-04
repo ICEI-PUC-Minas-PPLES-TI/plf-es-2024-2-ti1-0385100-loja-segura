@@ -93,15 +93,12 @@ As empresas participantes, por outro lado, incluem tanto grandes marcas consolid
 As Personas representam os perfis fictícios criados com base em dados reais para guiar o desenvolvimento do projeto e garantir que as soluções atendam às necessidades dos usuários.
 
 > ## Persona 1: Lucas Lima
-![image](https://github.com/user-attachments/assets/28bea441-176a-4a00-aef8-7095347a8b79)
+>![image](https://github.com/user-attachments/assets/28bea441-176a-4a00-aef8-7095347a8b79)
 >![image](https://github.com/user-attachments/assets/17cd3786-074e-46cd-8e0d-52d5a18ea564)
-
 
 > ## Persona 2: Alexandra Soraes
 >![image](https://github.com/user-attachments/assets/77b36afa-148d-4bef-9682-1ea025b85bab)
 >![image](https://github.com/user-attachments/assets/7a5fe3ab-38b9-4ff9-a122-e038cc2b123b)
-
-
 
 
 # Product Design
