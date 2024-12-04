@@ -48,8 +48,6 @@ O desenvolvimento de um site que reúna e gerencie informações oficiais das lo
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
 O público-alvo pode incluir uma variedade de perfis, abrangendo desde consumidores finais até empresas que atuam no comércio eletrônico. Os consumidores são pessoas de diferentes faixas etárias e níveis de conhecimento tecnológico, desde jovens que estão familiarizados com a internet e compras online, até indivíduos mais velhos que buscam informações confiáveis para garantir uma experiência de compra segura. Esses consumidores possuem em comum o desejo de evitar fraudes e garantir a legitimidade das lojas nas quais realizam suas transações. Eles podem ter diferentes níveis de familiaridade com plataformas digitais, desde os mais experientes, que esperam funcionalidades avançadas, até aqueles que precisam de uma interface simplificada e intuitiva.
 
 As empresas participantes, por outro lado, incluem tanto grandes marcas consolidadas quanto pequenos e médios empreendedores que buscam destacar-se em um mercado competitivo. Elas têm um interesse particular em manter uma imagem confiável e melhorar sua presença digital, minimizando o impacto de golpes que possam afetar sua reputação. As empresas têm, geralmente, diferentes níveis de familiaridade com tecnologias de gestão de informações e plataformas digitais. Algumas podem já ter estratégias de marketing e presença online bem estabelecidas, enquanto outras podem precisar de uma solução mais acessível e fácil de integrar. Esse público-alvo é composto por profissionais que, em sua maioria, têm conhecimentos básicos a intermediários em tecnologia e estão motivados a proteger suas operações e seus clientes de fraudes e falsificações online.
