@@ -111,9 +111,11 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 | EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
 | --------------------- | ------------------------------------------ | -------------------------------------- |
-| Eu como consumidora | Verificar se uma loja online é confiável | Evitar fraudes e proteger meus dados pessoais e financeiros |
-| Eu como consumidora| Acessar avaliações e relatos de outros usuários sobre uma loja| Decidir com mais segurança antes de realizar uma compra |
-| Eu como consumidora menos experiente | Encontrar informações sobre lojas facilmente | Usar a plataforma sem dificuldades
+| Consumidora (Alexandra) | Verificar se uma loja online é confiável | Evitar fraudes e proteger meus dados pessoais e financeiros |
+| Consumidora (Alexandra)| Acessar avaliações e relatos de outros usuários sobre uma loja| Decidir com mais segurança antes de realizar uma compra |
+| Consumidora menos experiente (Alexandra)| Encontrar informações sobre lojas facilmente | Usar a plataforma sem dificuldades
+| Consumidor preocupado com segurança (Lucas) | Denunciar uma loja que acredito ser falsa | Alertar outros usuários e ajudar a prevenir possíveis golpes
+| Consumidor que já sofreu fraudes (Lucas) | Saber se a loja está na lista de empresas cadastradas e verificadas | Evitar repetir experiências negativas
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
