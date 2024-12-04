@@ -117,60 +117,39 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | Consumidor preocupado com segurança (Lucas) | Denunciar uma loja que acredito ser falsa | Alertar outros usuários e ajudar a prevenir possíveis golpes
 | Consumidor que já sofreu fraudes (Lucas) | Saber se a loja está na lista de empresas cadastradas e verificadas | Evitar repetir experiências negativas
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-## Proposta de Valor
-
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
-
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
-
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
-### Requisitos Funcionais
+## Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| ID     | Descrição do Requisito                                                                       | Prioridade |
+| ------ | ---------------------------------------------------------------------------------------------- | ---------- |
+| RF-001 | Permitir que os usuários cadastrem suas contas e façam login para acessar a plataforma.        | ALTA       |
+| RF-002 | Permitir que as empresas criem e gerenciem perfis públicos com informações de contato e verificação. | ALTA       |
+| RF-003 | Implementar uma funcionalidade de busca de lojas, permitindo filtros como categoria e localização. | ALTA       |
+| RF-004 | Exibir avaliações e relatos de outros consumidores sobre as lojas verificadas.                 | ALTA       |
+| RF-005 | Permitir que os usuários denunciem lojas suspeitas de serem fraudulentas.                      | ALTA       |
+| RF-006 | Fornecer uma lista de empresas verificadas, com informações detalhadas sobre sua autenticidade. | ALTA       |
+| RF-007 | Oferecer um sistema de alertas sobre novas lojas adicionadas e atualizações importantes.        | MÉDIA      |
+| RF-008 | Implementar uma página de "Dúvidas Frequentes" e suporte ao cliente via chat ou email.         | MÉDIA      |
+| RF-009 | Permitir a atualização de informações de perfil e verificação para empresas já cadastradas.     | MÉDIA      |
+| RF-010 | Gerar relatórios de análise de segurança com base nas denúncias e verificações realizadas.     | BAIXA      |
 
-### Requisitos não Funcionais
+## Requisitos Não Funcionais
 
-| ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Os requisitos de um projeto são classificados em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Orientações**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID      | Descrição do Requisito                                                                        | Prioridade |
+| ------- | ----------------------------------------------------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser responsivo, adaptando-se a diferentes tamanhos de tela, incluindo dispositivos móveis e desktops. | ALTA       |
+| RNF-002 | A plataforma deve ter um tempo de resposta de no máximo 3 segundos para processar as solicitações dos usuários. | ALTA       |
+| RNF-003 | O sistema deve ter alta disponibilidade, com uma meta de 99,9% de tempo de operação sem interrupções. | ALTA       |
+| RNF-004 | As informações do usuário e da empresa devem ser armazenadas de forma segura, seguindo práticas de criptografia de dados. | ALTA       |
+| RNF-005 | O sistema deve ser acessível para usuários com deficiências, seguindo as diretrizes de acessibilidade WCAG 2.1. | MÉDIA      |
+| RNF-006 | O tempo de carregamento das páginas não deve ultrapassar 2 segundos em conexões de internet padrão. | MÉDIA      |
+| RNF-007 | A plataforma deve ser compatível com os principais navegadores, como Chrome, Firefox, Safari e Edge. | ALTA       |
+| RNF-008 | O sistema deve ser escalável, permitindo a adição de novos recursos sem comprometer a performance. | MÉDIA      |
+| RNF-009 | As operações de verificação e atualização de perfis devem ter um nível de segurança que previna ataques como SQL injection e XSS. | ALTA       |
+| RNF-010 | A interface deve ter um design intuitivo e de fácil navegação para todos os perfis de usuários. | ALTA       |
 
 ## Projeto de Interface
 
