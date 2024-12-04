@@ -65,13 +65,14 @@ As empresas participantes, por outro lado, incluem tanto grandes marcas consolid
 > 
 > * A seguir, as**Entrevistas qualitativas e os Highnligthts de pesquisa**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas e um complicado do levantamento realizado por meio das entrevistas:
 >   
-## [Leandro]  Entrevistado : Wesley de 28  anos 
-![image](https://github.com/user-attachments/assets/ff1eb465-d722-4d73-ba17-b815eb668c56)
-![image](https://github.com/user-attachments/assets/c873809a-f798-4c09-b9cc-ac5587ad9987)
-![image](https://github.com/user-attachments/assets/3dcfa9ed-e810-4496-a469-147de2481c68)
-
-
-## [Leandro]  Entrevistado : Wesley de 28  anos 
+> ## [Leandro]  Entrevistado : Wesley  
+>![image](https://github.com/user-attachments/assets/ff1eb465-d722-4d73-ba17-b815eb668c56)
+>![image](https://github.com/user-attachments/assets/c873809a-f798-4c09-b9cc-ac5587ad9987)
+>![image](https://github.com/user-attachments/assets/3dcfa9ed-e810-4496-a469-147de2481c68)
+>
+>
+>## [João Victor]  Entrevistado : Eliane Martins
+> 
 
 
 
