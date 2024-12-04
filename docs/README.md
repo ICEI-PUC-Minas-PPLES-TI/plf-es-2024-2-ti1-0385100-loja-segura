@@ -70,10 +70,20 @@ As empresas participantes, por outro lado, incluem tanto grandes marcas consolid
 >![image](https://github.com/user-attachments/assets/c873809a-f798-4c09-b9cc-ac5587ad9987)
 >![image](https://github.com/user-attachments/assets/3dcfa9ed-e810-4496-a469-147de2481c68)
 >
->
 >## [João Victor]  Entrevistado : Eliane Martins
-> 
-
+> ![image](https://github.com/user-attachments/assets/b1be2071-73cc-4786-a43b-56492a651119)
+> ![image](https://github.com/user-attachments/assets/f10351e3-af23-46b9-9a16-f918ddc91d1d)
+> ![image](https://github.com/user-attachments/assets/f7914f3b-a84c-4b77-b9a8-68a9b1a5562c)
+>
+> ## [Agni Sofia]  Entrevistado : Zelia Souza
+> ![image](https://github.com/user-attachments/assets/7b54e177-0de8-43a6-a695-2d5e43e1e5a3)
+> ![image](https://github.com/user-attachments/assets/64414b76-efb0-455f-8120-60b8f3d572aa)
+> ![image](https://github.com/user-attachments/assets/15f4a9c4-9387-4cef-85a3-58cbdcd31e1f)
+>
+> ## [Felipe Cury]  Entrevistado : Claudia
+> ![image](https://github.com/user-attachments/assets/bac0bad2-08ba-4cc8-abd4-b810cde0f624)
+> ![image](https://github.com/user-attachments/assets/bb2ed432-3d62-46d9-b97d-f2a459a3a432)
+> ![image](https://github.com/user-attachments/assets/1586dca9-3d11-4f4c-9766-3693c4aee520)
 
 
 ## Etapa de Definição
