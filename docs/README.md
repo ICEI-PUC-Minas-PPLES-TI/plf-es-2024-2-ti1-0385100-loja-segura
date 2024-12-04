@@ -111,8 +111,9 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 | EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
 | --------------------- | ------------------------------------------ | -------------------------------------- |
-| Como consumidora e professora   | Verificar se uma loja online é confiável | Evitar fraudes e proteger meus dados pessoais e financeiros          |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
+| Eu como consumidora | Verificar se uma loja online é confiável | Evitar fraudes e proteger meus dados pessoais e financeiros |
+| Eu como consumidora| Acessar avaliações e relatos de outros usuários sobre uma loja| Decidir com mais segurança antes de realizar uma compra |
+| Eu como consumidora menos experiente | Encontrar informações sobre lojas facilmente | Usar a plataforma sem dificuldades
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
