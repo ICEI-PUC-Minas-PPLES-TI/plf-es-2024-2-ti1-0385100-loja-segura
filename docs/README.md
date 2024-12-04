@@ -62,15 +62,18 @@ As empresas participantes, por outro lado, incluem tanto grandes marcas consolid
 > * A seguir, o**Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema:
 >
 > ![image](https://github.com/user-attachments/assets/47c52151-419d-420d-87d0-ee488024bf32)
-> * A seguir, as**Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas:
+> 
+> * A seguir, as**Entrevistas qualitativas e os Highnligthts de pesquisa**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas e um complicado do levantamento realizado por meio das entrevistas:
 >   
-# [Leandro]  Entrevistado : Wesley de 28  anos 
+## [Leandro]  Entrevistado : Wesley de 28  anos 
 ![image](https://github.com/user-attachments/assets/ff1eb465-d722-4d73-ba17-b815eb668c56)
 ![image](https://github.com/user-attachments/assets/c873809a-f798-4c09-b9cc-ac5587ad9987)
+![image](https://github.com/user-attachments/assets/3dcfa9ed-e810-4496-a469-147de2481c68)
+
 
 ## [Leandro]  Entrevistado : Wesley de 28  anos 
 
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+
 
 ## Etapa de Definição
 
