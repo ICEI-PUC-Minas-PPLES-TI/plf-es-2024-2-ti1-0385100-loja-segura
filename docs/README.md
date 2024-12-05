@@ -7,8 +7,8 @@ Este documento apresenta as informações detalhadas sobre o projeto Loja Segura
 * **Membros da equipe:**
 
   * [Agni Sofia](https://github.com/DopyCat) 
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * [Felipe Cury](https://github.com/fcfCury)
+  * [joão]
 
 A documentação do projeto é estruturada da seguinte forma:
 
