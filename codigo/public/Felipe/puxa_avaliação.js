@@ -1,6 +1,6 @@
 // Caminho dos arquivos JSON
 const jsonUrl = '/empresas';
-const jsonUrl2 = '/avaliacoes';
+const jsonUrl2 = '/denuncias';
 
 // Elementos HTML
 const dropdownMenu = document.getElementById("dropdownMenu");
@@ -8,11 +8,18 @@ const empresaDetalhes = document.getElementById("empresaDetalhes");
 
 // Variável para armazenar as avaliações
 let avaliacoes = [];
+let empresas = []; // Para armazenar as empresas
+
+// Obtém o ID da empresa a partir da URL
+const urlParams = new URLSearchParams(window.location.search);
+const empresaId = urlParams.get('id');
 
 // Função para buscar empresas e popular o dropdown
 fetch(jsonUrl)
   .then(response => response.json()) // Converte a resposta em JSON
-  .then(empresas => {
+  .then(data => {
+    empresas = data; // Armazena as empresas globalmente
+
     // Gera dinamicamente os itens do dropdown
     empresas.forEach(empresa => {
       const listItem = document.createElement("li");
@@ -28,6 +35,16 @@ fetch(jsonUrl)
       listItem.appendChild(button);
       dropdownMenu.appendChild(listItem);
     });
+
+    // Verifica se há um ID na URL e exibe os detalhes da empresa correspondente
+    if (empresaId) {
+      const empresaSelecionada = empresas.find(e => e.id == empresaId);
+      if (empresaSelecionada) {
+        exibirDetalhesEmpresa(empresaSelecionada);
+      } else {
+        console.error('Empresa não encontrada para o ID fornecido na URL.');
+      }
+    }
   })
   .catch(error => console.error('Erro ao carregar o arquivo JSON de empresas:', error));
 
@@ -42,7 +59,7 @@ fetch(jsonUrl2)
 // Função para exibir os detalhes da empresa selecionada
 function exibirDetalhesEmpresa(empresa) {
   // Filtra as avaliações relacionadas à empresa
-  const avaliacoesRelacionadas = avaliacoes.filter(a => a.id_empresa === empresa.id);
+  const avaliacoesRelacionadas = avaliacoes.filter(a => a.id_empresa == empresa.id);
 
   // Renderiza o conteúdo
   empresaDetalhes.innerHTML = `
@@ -50,7 +67,7 @@ function exibirDetalhesEmpresa(empresa) {
     <img src="${empresa.imagem}" alt="${empresa.nome}" class="img-fluid mb-3" style="max-width: 600px;">
     <p>${empresa.descricao}</p>
     <h4>Avaliações:</h4>
-    <div class="row">
+    <div class="d-flex flex-wrap w-100">
       ${avaliacoesRelacionadas.map(avaliacao => `
         <div class="col-md-4 mb-3">
           <div class="card">

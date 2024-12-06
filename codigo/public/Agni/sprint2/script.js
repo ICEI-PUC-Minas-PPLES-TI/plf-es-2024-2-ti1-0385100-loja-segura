@@ -163,7 +163,7 @@ async function editarDenuncia(id) {
         option.textContent = empresa.nome;
 
         // Selecionar a loja que corresponde ao id da denúncia
-        if (empresa.id === denuncia.id_empresa) {
+        if (empresa.id == denuncia.id_empresa) {
             option.selected = true;
         }
 
