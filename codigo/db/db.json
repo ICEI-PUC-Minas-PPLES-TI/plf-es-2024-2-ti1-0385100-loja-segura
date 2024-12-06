@@ -175,22 +175,6 @@
       "id": 4
     },
     {
-      "id_empresa": 4,
-      "usuario": "Tereza",
-      "status": "verdadeira",
-      "comentario": "muito boa",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "id": 5
-    },
-    {
-      "id_empresa": 4,
-      "usuario": "maria",
-      "status": "verdadeira",
-      "comentario": "twasafaf",
-      "url": "safafaf",
-      "id": 6
-    },
-    {
       "usuario": "Alvin",
       "id_empresa": "3",
       "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",

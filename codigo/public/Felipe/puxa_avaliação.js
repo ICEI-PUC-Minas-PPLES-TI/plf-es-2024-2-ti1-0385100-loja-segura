@@ -67,7 +67,7 @@ function exibirDetalhesEmpresa(empresa) {
     <img src="${empresa.imagem}" alt="${empresa.nome}" class="img-fluid mb-3" style="max-width: 600px;">
     <p>${empresa.descricao}</p>
     <h4>Avaliações:</h4>
-    <div class="d-flex flex-wrap w-100">
+    <div class="d-flex flex-wrap w-100 gap-5">
       ${avaliacoesRelacionadas.map(avaliacao => `
         <div class="col-md-4 mb-3">
           <div class="card">
