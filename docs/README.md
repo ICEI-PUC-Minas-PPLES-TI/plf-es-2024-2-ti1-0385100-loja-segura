@@ -392,37 +392,8 @@ Dropdown de segurança das lojas
       "id": 20,
       "nome": "SmartHome",
       "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
-      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "descricao": "Tecnologia para automação residencial, oferecendo segurança e comodidade."
-    }
-  ],
-  "denuncias": [
-    {
-      "id_empresa": 4,
-      "usuario": "Agni Sofia Gomes Chaves",
-      "status": "verdadeira",
-      "comentario": "Muito boa, verdadeira.",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "id": 3
-    },
-    {
-      "id_empresa": 4,
-      "usuario": "Felipe Cury ",
-      "status": "falsa",
-      "comentario": "Muito ruim.",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "id": 4
-    },
-    {
-      "usuario": "Alvin",
-      "id_empresa": "3",
-      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
-      "comentario": "muito ruim.",
-      "status": "verdadeira",
-      "id": 7
-    }
-  ]
-}
+      "link": "https://www.youtube.com/watch?v=dQw4w
+
 
 ## Módulos e APIs
 
