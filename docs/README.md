@@ -185,7 +185,13 @@ https://marvelapp.com/project/7208171/design/96247152
 
 # Metodologia
 
-Detalhes sobre a organização do grupo e o ferramental empregado.
+A metodologia adotada no desenvolvimento do projeto foi estruturada para integrar as melhores práticas de Design Thinking e da abordagem ágil Scrum, promovendo uma compreensão aprofundada das necessidades dos usuários e um desenvolvimento colaborativo e incremental das funcionalidades. O processo foi conduzido em ciclos curtos, permitindo feedback contínuo e a realização de ajustes e melhorias ao longo do projeto. As etapas de cada sprint foram detalhadamente organizadas para garantir um progresso consistente e eficiente. As principais etapas do desenvolvimento foram:
+
+1. Pesquisa e entrevistas: Realização de entrevistas qualitativas e análise de dados para identificar desafios, mapear problemas e capturar insights importantes sobre as necessidades e expectativas dos usuários.
+
+2. Prototipagem e testes de usabilidade: Criação de protótipos interativos e condução de testes de usabilidade para validar as soluções propostas, melhorar a experiência do usuário e ajustar as interfaces com base no feedback recebido.
+   
+3. Desenvolvimento e iteração: Colaboração contínua da equipe de desenvolvimento para a implementação das funcionalidades, seguidas de ciclos de iteração para refinar e aprimorar a aplicação. Esse processo incluía reuniões diárias, retrospectivas e revisões do progresso, assegurando que o produto evoluísse de acordo com as expectativas dos usuários e os requisitos estabelecidos.
 
 ## Ferramentas
 
@@ -231,30 +237,192 @@ Dropdown de segurança das lojas
 
 ## Estruturas de Dados
 
-"usuarios": [
+{
+  "usuarios": [
     {
       "id": 1,
       "login": "admin",
       "senha": "123",
       "nome": "Administrador do Sistema",
       "email": "admin@abc.com"
-    }, 
-    "empresas": [
-      {
-        "id": 3,
-        "nome": "TechGuru",
-        "imagem": "https://example.com/techguru.png"
-      },
-
-
- "avaliacoes": [
-      {
-        "id_empresa": 3,
-        "usuario": "Carlos Eduardo",
-        "status": "verdadeira",
-        "comentario": "Produtos de ótima qualidade, recomendo!"
-      },
-
+    },
+    {
+      "id": 2,
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    },
+    {
+      "id": 3,
+      "login": "rommel",
+      "senha": "123",
+      "nome": "Rommel",
+      "email": "rommel@gmail.com"
+    },
+    {
+      "login": "dopy",
+      "senha": "12345",
+      "nome": "agni sofia",
+      "email": "asfjafn@gmail.com",
+      "id": 4
+    }
+  ],
+  "empresas": [
+    {
+      "id": 3,
+      "nome": "TechGuru",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Plataforma especializada em tecnologia com uma ampla variedade de produtos de última geração."
+    },
+    {
+      "id": 4,
+      "nome": "EcoPower",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Empresa focada em soluções de energia sustentável e renovável para residências e empresas."
+    },
+    {
+      "id": 5,
+      "nome": "CyberMall",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Marketplace digital com uma grande seleção de produtos eletrônicos e de informática."
+    },
+    {
+      "id": 6,
+      "nome": "ElectroShop",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Loja online especializada em eletrônicos, desde gadgets até eletrodomésticos."
+    },
+    {
+      "id": 7,
+      "nome": "FashionHub",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Rede de moda e acessórios com as últimas tendências para todos os estilos."
+    },
+    {
+      "id": 8,
+      "nome": "BookNook",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Livraria online com uma vasta coleção de títulos de diversos gêneros."
+    },
+    {
+      "id": 9,
+      "nome": "HomeEssentials",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Tudo o que você precisa para sua casa, desde decoração até utensílios domésticos."
+    },
+    {
+      "id": 10,
+      "nome": "PetWorld",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Loja online para produtos e serviços para pets, com um amplo catálogo para diversos animais."
+    },
+    {
+      "id": 11,
+      "nome": "GadgetFlow",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Portal para os entusiastas de gadgets, com os lançamentos mais recentes do mercado."
+    },
+    {
+      "id": 12,
+      "nome": "AutoPartsPro",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Especialistas em peças e acessórios automotivos para manutenção e customização."
+    },
+    {
+      "id": 13,
+      "nome": "BeautyBliss",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Loja de cosméticos e produtos de beleza com as melhores marcas e tendências."
+    },
+    {
+      "id": 14,
+      "nome": "OutdoorKing",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Equipamentos e acessórios para atividades ao ar livre, camping e esportes de aventura."
+    },
+    {
+      "id": 15,
+      "nome": "OfficeGear",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Fornecedora de material de escritório e móveis para empresas e home offices."
+    },
+    {
+      "id": 16,
+      "nome": "KidsWorld",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Brinquedos, roupas e acessórios para crianças de todas as idades."
+    },
+    {
+      "id": 17,
+      "nome": "KitchenEssentials",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Produtos e utensílios de cozinha para todos os tipos de preparo culinário."
+    },
+    {
+      "id": 18,
+      "nome": "SportsMax",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Artigos esportivos para uma grande variedade de modalidades e atividades físicas."
+    },
+    {
+      "id": 19,
+      "nome": "TravelLite",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Loja de artigos de viagem, malas e acessórios para tornar seu deslocamento mais prático."
+    },
+    {
+      "id": 20,
+      "nome": "SmartHome",
+      "imagem": "https://blog.sinalcenter.com.br/wp-content/uploads/2022/11/Sinalizacao-temporaria-de-obras-Quando-se-deve-utilizar.jpg",
+      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "descricao": "Tecnologia para automação residencial, oferecendo segurança e comodidade."
+    }
+  ],
+  "denuncias": [
+    {
+      "id_empresa": 4,
+      "usuario": "Agni Sofia Gomes Chaves",
+      "status": "verdadeira",
+      "comentario": "Muito boa, verdadeira.",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
+      "id": 3
+    },
+    {
+      "id_empresa": 4,
+      "usuario": "Felipe Cury ",
+      "status": "falsa",
+      "comentario": "Muito ruim.",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
+      "id": 4
+    },
+    {
+      "usuario": "Alvin",
+      "id_empresa": "3",
+      "url": "http://127.0.0.1:5500/codigo/public/Agni/sprint2/index.html",
+      "comentario": "muito ruim.",
+      "status": "verdadeira",
+      "id": 7
+    }
+  ]
+}
 
 ## Módulos e APIs
 
