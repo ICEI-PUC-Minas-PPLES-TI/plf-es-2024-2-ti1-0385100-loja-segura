@@ -223,16 +223,24 @@ Esta seção apresenta todos os detalhes da solução criada no projeto.
 
 Tela de avaliação de lojas registradas
 *clique em avaliar uma loja
+![image](https://github.com/user-attachments/assets/9ca2dc58-ce31-45b3-a4ac-636f1202065f)
+
 
 Tela de visualização das lojas cadastradas
 *clique em visualizar lojas
+![image](https://github.com/user-attachments/assets/e1ec976f-0c96-435e-8bad-783245abd1f6)
+
 
 Tela de visualização de avaliações
 *clique em avaliações de lojas
 *clique em escolha a loje e depois clique na loja que gostaria de ver
+![image](https://github.com/user-attachments/assets/2beddbcd-d9a1-46c4-8ad2-997ec754f1ec)
+
 
 Dropdown de segurança das lojas 
 *clique no dropdown no home screen
+![image](https://github.com/user-attachments/assets/f0a939f6-2b20-45b0-8ead-b3b1b548351a)
+
 
 
 ## Estruturas de Dados
